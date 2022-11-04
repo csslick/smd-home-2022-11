@@ -26,6 +26,7 @@ body {
 h1 {
   font-family: 'Crimson Text', serif;
   font-size: 26px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -139,4 +140,32 @@ a {
   padding-left: 56px;
   font-size: 60px;
   font-weight: 400;
+}
+
+
+/* Introduction */
+#intro .container {
+  padding: 50px 20px;
+  outline: 1px solid #000;
+}
+
+#intro .intro-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#intro .intro-list > li {
+  /* outline: 2px solid red; */
+  width: calc((100% - 60px) / 4);
+}
+
+#intro .intro-list > li img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* 여백, 정렬  */
+#intro .intro-list h2 {
+  margin-bottom: 10px;
 }
