@@ -227,3 +227,30 @@ a {
 #sns-banner .sns-icon-group a {
   margin-left: 28px;
 }
+
+
+#main-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+}
+
+#main-footer .container {
+  padding: 50px 20px;
+}
+
+
+#main-footer .footer-menu {
+  margin-bottom: 15px;
+}
+
+#main-footer .footer-menu a{
+  font-size: 14px;
+  color: #444;
+}
+
+#main-footer address, #main-footer .copy {
+  font-size: 12px;
+  font-style: normal;
+  color: #666;
+  margin-bottom: 5px;
+}
