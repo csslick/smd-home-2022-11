@@ -157,6 +157,7 @@ a {
 
 #intro .intro-list > li {
   /* outline: 2px solid red; */
+  /* (너비 - 칼럼여백(칼럼수 - 1)) / 칼럼수 */
   width: calc((100% - 60px) / 4);
 }
 
@@ -168,4 +169,25 @@ a {
 /* 여백, 정렬  */
 #intro .intro-list h2 {
   margin-bottom: 10px;
+}
+
+
+
+/* Notice */
+#notice .container {
+  padding: 50px 20px;
+  outline: 1px solid #000;
+}
+
+#notice .icons-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#notice .icons-list > li {
+  outline: 2px solid red;
+  width: calc((100% - 40px) / 3);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
