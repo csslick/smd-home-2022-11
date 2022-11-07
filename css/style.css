@@ -146,7 +146,7 @@ a {
 /* Introduction */
 #intro .container {
   padding: 50px 20px;
-  outline: 1px solid #000;
+  /* outline: 1px solid #000; */
 }
 
 #intro .intro-list {
@@ -174,9 +174,13 @@ a {
 
 
 /* Notice */
+#notice {
+  background-color: var(--bg-color-light);
+}
+
 #notice .container {
   padding: 50px 20px;
-  outline: 1px solid #000;
+  /* outline: 1px solid #000; */
 }
 
 #notice .icons-list {
@@ -186,8 +190,40 @@ a {
 }
 
 #notice .icons-list > li {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   width: calc((100% - 40px) / 3);
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.btn-more {
+  font-size: 14px;
+  color: #666;
+}
+
+#notice .icons-list > li .icon-group h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* sns banner */
+#sns-banner .container {
+  background-image: url('../images/sns-banner-bg.jpg');
+  color: #fff;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sns-banner h1 {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+#sns-banner .sns-icon-group a {
+  margin-left: 28px;
 }
