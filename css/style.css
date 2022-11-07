@@ -273,16 +273,25 @@ a {
 }
 
 #site-map-menu .container {
-  outline: 1px solid #333;
+  outline: 1px solid red;
+  position: relative;
+  height: 100%;
 }
 
-#site-map-menu .site-menu {
+#site-map-menu nav.site-menu {
   outline: 1px solid #333;
+  background: pink;
+  height: 100%;
+  display: flex;
+  align-items: space-between;
+  padding-top: 150px;
 }
 
 #site-map-menu .site-menu > ul.depth1 {
   display: flex;
   flex-wrap: wrap;
+  background: lightgreen;
+  width: 100%;
 }
 
 #site-map-menu .site-menu > ul.depth1 > li {
@@ -293,4 +302,30 @@ a {
 #site-map-menu .site-menu > ul.depth1 > li > a {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#site-menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#site-map-menu .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#site-map-menu .site-menu .depth2 {
+  padding: 10px;
+}
+
+#site-map-menu .site-menu .depth2 > li {
+  margin-bottom: 10px;
+}
+
+#site-map-menu .site-menu .depth2 a {
+  color: #444;
 }
