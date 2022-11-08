@@ -1,6 +1,7 @@
 // main.js
 console.log('main.js');
 
+// 메인 이미지 슬라이더
 $(function(){
   // 배너 이미지 배열
   let bgArr = [
@@ -24,4 +25,15 @@ $(function(){
     })
   }, 5000);
 
+})
+
+// 사이트맵 버튼
+$(function(){
+  $('#btn-toggle').on('click', function(){
+    $('#site-map-menu').toggleClass('show');
+  });
+
+  $('#site-menu-close').on('click', function(){
+    $('#site-map-menu').removeClass('show');
+  });
 })

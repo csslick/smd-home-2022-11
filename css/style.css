@@ -273,14 +273,14 @@ a {
 }
 
 #site-map-menu .container {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   position: relative;
   height: 100%;
 }
 
 #site-map-menu nav.site-menu {
-  outline: 1px solid #333;
-  background: pink;
+  /* outline: 1px solid #333; */
+  /* background: pink; */
   height: 100%;
   display: flex;
   align-items: space-between;
@@ -290,7 +290,7 @@ a {
 #site-map-menu .site-menu > ul.depth1 {
   display: flex;
   flex-wrap: wrap;
-  background: lightgreen;
+  /* background: lightgreen; */
   width: 100%;
 }
 
@@ -328,4 +328,15 @@ a {
 
 #site-map-menu .site-menu .depth2 a {
   color: #444;
+}
+
+
+/* 사이트맵 메뉴 비표시 상태 */
+#site-map-menu {
+  display: none;
+}
+
+/* 사이트맵 표시 상태 */
+#site-map-menu.show {
+  display: block;
 }
