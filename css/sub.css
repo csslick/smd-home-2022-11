@@ -1,0 +1,23 @@
+/* sub page용 타이틀(서브 공통 */
+#sub-title h1 {
+  font-size: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sub-title {
+  height: 300px;
+  background: #999;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+
+/* 고유 영역 */
+/* about */
+#about #sub-title{
+  background-image: url('../images/about-title.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
