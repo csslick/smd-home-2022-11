@@ -44,3 +44,22 @@
 }
 
 /* section2 */
+#section2 .container {
+  /* background: #ddd; */
+  display: flex;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+#section2 .container .item {
+  /* outline: 2px solid #fff; */
+}
+
+#section2 .container .item img {
+  width: 100%;
+}
+
+#section2 h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
