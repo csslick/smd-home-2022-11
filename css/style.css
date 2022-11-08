@@ -91,10 +91,14 @@ p {
 #gnb .depth2 {
   background: #FFFFFF;
   border: 1px solid #CCCCCC;
-  padding: 10px;
+  padding: 20px;
   margin-top: 26px;
-  display: none;
+  /* display: none; */
+  max-height: 0;
+  overflow: hidden;
   text-align: left;
+  opacity: 0;
+  transition: 0.4s;
 }
 
 #gnb .depth2 > li {
@@ -108,7 +112,9 @@ p {
 /* hover 액션 */
 /* depth1 li에 마우스가 올라가면 depth2 표시 */
 #gnb .depth1 > li:hover .depth2 {
-  display: block;
+  /* display: block; */
+  max-height: 200px;
+  opacity: 1;
 }
 
 #gnb .depth1 > li > a:hover {
