@@ -45,6 +45,14 @@ p {
   line-height: 26px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border-style: none;
+}
+
 .container {
   max-width: 1440px;
   /* outline: 2px solid #333; */

@@ -77,3 +77,31 @@
 #location #map .container {
   padding: 70px 0 50px;
 }
+
+#location .location-info .container {
+  /* outline: 1px solid #333; */
+  display: flex;
+}
+
+#location .location-info .container img {
+  width: 50%;
+}
+
+#location .location-info .container .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#location th, td {
+  padding: 5px;
+  padding-left: 1em;
+}
+
+#location th {
+  text-align: left;
+  vertical-align: top;
+  font-size: 20px;
+}
+
