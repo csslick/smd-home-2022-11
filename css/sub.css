@@ -63,3 +63,17 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+
+
+/* location */
+#location #sub-title{
+  background-image: url('../images/location.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#location #map .container {
+  padding: 70px 0 50px;
+}
