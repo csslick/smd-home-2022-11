@@ -47,6 +47,7 @@ p {
 
 table {
   border-collapse: collapse;
+  color: rgb(26, 188, 156)
 }
 
 table, th, td {

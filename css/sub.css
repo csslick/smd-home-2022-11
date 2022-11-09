@@ -1,3 +1,6 @@
+/* 서브페이지 css */
+@import "sub3-1.css";
+
 /* sub page용 타이틀(서브 공통) */
 #sub-title h1 {
   font-size: 40px;
