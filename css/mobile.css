@@ -59,7 +59,7 @@ img {
 
 .container {
   width: 100%;
-  outline: 2px solid #333;
+  /* outline: 2px solid #333; */
   position: relative;
 }
 
@@ -67,6 +67,7 @@ img {
   width: 100%;
   height: 80px;
   /* background: #ccc; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #main-header h1 {
@@ -164,11 +165,11 @@ img {
   background-position: center center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #main-banner h1 {
   color: #fff;
-  padding-left: 56px;
   font-weight: 400;
   font-size: 26px;
 }
@@ -180,7 +181,13 @@ img {
 
 /* 안보임 */
 #site-map-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 80px;
+  z-index: 999;
   display: none;
+  background-color: #fff;
 }
 
 /* 버튼 누르면 보임 */
@@ -215,6 +222,7 @@ img {
   display: block;
 }
 
+/* 1단계 메뉴 버튼(화살표) */
 #site-map-menu .depth1 > li > a {
   display: flex;
   justify-content: space-between;
