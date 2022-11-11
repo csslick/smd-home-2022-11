@@ -47,7 +47,6 @@ p {
 
 table {
   border-collapse: collapse;
-  color: rgb(26, 188, 156)
 }
 
 table, th, td {
@@ -365,4 +364,9 @@ table, th, td {
 /* 사이트맵 표시 상태 */
 #site-map-menu.show {
   display: block;
+}
+
+/* 1단계 메뉴 버튼(PC 화살표 안보임) */
+#site-map-menu .depth1 > li > a > span{
+  display: none;
 }

@@ -27,7 +27,7 @@ $(function(){
 
 })
 
-// 사이트맵 버튼
+// PC 사이트맵(모바일 GNB) 버튼
 $(function(){
   $('#btn-toggle').on('click', function(){
     $('#site-map-menu').toggleClass('show');
@@ -37,3 +37,15 @@ $(function(){
     $('#site-map-menu').removeClass('show');
   });
 })
+
+
+$(function(){
+  // GNB 1단계 a 기본 이벤트 제거
+  $('#site-map-menu .site-menu .depth1 > li > a')
+    .on('click', function(event){
+      // 여기다 toggle 기능 추가: 클릭한 버튼의 다음형제(depth2)
+      $(this).next().toggleClass('show');
+      event.preventDefault();
+    })
+})
+
